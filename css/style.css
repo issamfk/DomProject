@@ -1,0 +1,33 @@
+
+section{
+    margin: 10% 17%;
+    background: #FFFFFF;
+    padding: 20px;
+    background-color: burlywood;
+}
+.part0 {
+    padding: 20px;
+}
+
+#part1, #part2 , #part3{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 80%;
+    margin: 0 auto;
+}
+
+.btns1, .btns2, .btns3{
+
+    display: flex;
+    justify-content: space-evenly;
+    flex-basis: 80px;
+}
+.icons1, .icons2, .icons3{
+    letter-spacing: 20px;
+}
+
+#part1 img, #part2 img, #part3 img{
+    height: 150px;
+    width: 200px;
+}

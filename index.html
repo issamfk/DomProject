@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+  <head>  
+		<title> Shopping Card </title>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="./css/style.css">
+        <script src="https://use.fontawesome.com/dbd9f75feb.js"></script>
+
+  </head>
+    
+  <body>
+      <section>
+          <div class="part0">
+            <p> Shopping Bag Total : <span id="total"> 0 </span> <span> $ </span></p>
+          </div>
+
+          <div id="part1">
+              <div class="icons1"> 
+                    <i class="fa fa-heart" id='heart1' aria-hidden="true" onclick="heart1()" ></i>
+                    <i class="fa fa-trash" aria-hidden="true" onclick="remove1()" ></i>
+             </div>
+             <img src="./images/1.jpg" alt="">
+             <span class="productName"> <strong> Nike AirForce 1</strong> <br> White </span>
+             <div class="btns1" style="flex-basis: 200px">
+                <span onclick="inc1()">    +     </span>
+                <span id="quantité1">     0     </span>
+                <span onclick="dec1()">     -       </span>
+             </div>
+             
+             <div>
+                <p class="product-price"><span id="product1price1"> 0 </span> <span>$</span></p>
+             </div>
+        </div>
+
+        <div id="part2">
+            <div class="icons2"> 
+                  <i class="fa fa-heart" id='heart2' aria-hidden="true" onclick="heart2()" ></i>
+                  <i class="fa fa-trash" aria-hidden="true" onclick="remove2()" ></i>
+           </div>
+           <img src="./images/2.jpg" alt="">
+           <span class="productName"> <strong> Nike AirForce 2</strong> <br> Orange </span>
+           <div class="btns2" style="flex-basis: 200px">
+              <span onclick="inc2()">    +     </span>
+              <span id="quantité2">     0     </span>
+              <span onclick="dec2()">     -       </span>
+           </div>
+           
+           <div>
+              <p class="product-price"><span id="product1price2"> 0 </span> <span>$</span></p>
+           </div>
+      </div>
+
+      <div id="part3">
+        <div class="icons3"> 
+              <i class="fa fa-heart"id='heart3' aria-hidden="true" onclick="heart3()" ></i>
+              <i class="fa fa-trash" aria-hidden="true" onclick="remove3()" ></i>
+       </div>
+       <img src="./images/3.jpg" alt="">
+       <span class="productName"> <strong> Nike AirForce 2</strong> <br> Red </span>
+       <div class="btns3" style="flex-basis: 200px">
+          <span onclick="inc3()" >    +     </span>
+          <span id="quantité3">     0     </span>
+          <span onclick="dec3()">     -       </span>
+       </div>
+       
+       <div>
+          <p class="product-price"><span id="product1price3"> 0 </span> <span>$</span></p>
+       </div>
+  </div>
+
+  </section>
+
+  </body>
+  <script src="./js/script.js"></script>
+
+</html>
